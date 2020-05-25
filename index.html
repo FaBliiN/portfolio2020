@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+    <link rel="stylesheet" href="src/css/main.css">
     <title>Document</title>
 </head>
+
+<header id="header">
+    <a href="" id="header_name" class="header_name">
+        <img src="src/images/lentes.png" alt="">
+        <span class="header_name-nombre">Pablo Sanchez</span>
+    </a>
+    
+    <nav id="header_menu" class="header_menu">
+        <a id="aboutmeBtn" class="header_menu_buttons" href="/">ABOUT ME</a>
+        <a id="experienceBtn" class="header_menu_buttons" href="/">EXPERIENCE</a>
+        <a id=skillsBtn class="header_menu_buttons" href="/">SKILLS</a>
+        <a id="contactBtn" class="header_menu_buttons" href="/">CONTACT</a>
+        <a id="resumeBtn" href="/">RESUME</a>
+        
+    </nav>
+
+</header>
+
 <body>
+    <div id="aboutContainer" class="aboutContainer">
+        <button id="aboutMeAnimation" class="aboutMeAnimation" href="">ABOUT ME</button> 
+    </div>
+        
+    <div id="hero_container" class="hero_container">
+        <img class="body_hero" src="src/images/home.png">
+    </div>
+
+    <section id="section_aboutMe" class="section_aboutMe hide">
+        <div class="section_aboutMe_grid">
+            <div class="section_aboutMe_grid_photo">
+                <img class="foto_perfil" src="src/images/foto_perfil.png">
+            </div>
+            <div class="section_aboutMe_grid_descripction"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita at tempore hic voluptatem omnis incidunt quaerat eaque nisi! Facere atque voluptatem sequi omnis porro laborum temporibus consequatur mollitia odio?
+            </div>
+            <div class="section_aboutMe_grid_logos">
+                
+            </div>
+
+        </div>
+    </section>
     
 </body>
+
+<script src="src/js/script.js"></script>
+
 </html>
