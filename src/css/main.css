@@ -13,6 +13,10 @@ html{
     display: none;
 }
 
+.blue_text{
+    color: #1bc8f7;
+}
+
  header{
     
     margin-top: 10px;
@@ -208,42 +212,47 @@ button:focus {
 
 .section_aboutMe_grid{
     display: grid;
-    grid-template: 80% 20% / 25% 75%;
+    grid-template: 10% 50% 20% 20% / 25% 75%;
 
     height: 83%;
     width: 100%;
     
-    background-color: white;
+    
     
     
 }
 
 .section_aboutMe_grid_photo{
-    height: 55%;
+    height: 75%;
     width: 100%;
     background-color: #00aeef;
-    grid-row-start: 1;
+    grid-row: 2/4;
+    grid-column-start: 1;
     align-self: flex-end;
     z-index: 8;
 }
 
 .foto_perfil{
-    width: 50%;
+    width: 60%;
     height: auto;
     border-radius: 50%;
     margin: -25% auto 0 auto; 
     display: block;
+    grid-row: 1/3;
+    grid-column: 1;
+    z-index: 10;
+    margin: 20px auto 10px auto;
 }
 
 .section_aboutMe_grid_descripction{
-    grid-row-start: 1;
+    grid-row: 1/4;
     grid-column-start: 2;
-    background-color: blueviolet;
+    padding: 50px 45px 0 30px;
    
 }
 
 .section_aboutMe_grid_logos{
-    grid-row-start: 2;
+    grid-row-start: 4;
     grid-column-start: span 2;
     background-color: #3e3e3e;
 }
